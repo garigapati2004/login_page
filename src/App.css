@@ -24,7 +24,7 @@
 
 .login-form {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* It is used to put usename, password, submit in three lines*/
   justify-content: center;
   align-items: center;
 }
