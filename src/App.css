@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/* This is used for the background*/
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center; 
+  border: 0px solid #f0f0f0;
+  background-color: transparent;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} 
+
+.login-box h2 {
+  margin-bottom: 12px;
+}
+.login-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.login-box input {
+  width: 80%;
+  padding: 12px;
+  margin:10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px
+}
+
+.login-box button {
+  width: 50%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #2575fc;
   color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer; /* cursor changes into hand symbol */
 }
 
-.App-link {
-  color: #61dafb;
+.login-box button:hover {
+  background: #1a5ed9;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.log{
+  color: green;
 }
