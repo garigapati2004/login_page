@@ -2,28 +2,26 @@
 .login-page {
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
+  justify-content: center;  /*centers horizontally */
+  align-items: center;     /*centers vertically */
+  background-size: cover; /* background image covers the entire area */
+  background-position: center; /* centers the image */
   font-family: Arial, sans-serif;
 }
 
 .login-box {
-  background: white;
   padding: 40px;
   border-radius: 12px;
   width: 320px;
   text-align: center; 
-  border: 0px solid #f0f0f0;
+  border: 0px;
   background-color: transparent;
-
-
 } 
 
 .login-box h2 {
   margin-bottom: 12px;
 }
+
 .login-form {
   display: flex;
   flex-direction: column;
